@@ -10,4 +10,4 @@ docker run --rm -p 8080:8080 archive-safety
 curl http://localhost:8080/healthz
 ```
 
-数据文件默认位于 `/data/archive.db`，可通过 `ARCHIVE_DB` 调整路径。
+数据文件默认位于 `/app/archive.db`，可通过 `ARCHIVE_DB` 调整路径。

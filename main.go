@@ -13,7 +13,7 @@ import (
 func main() {
 	path := os.Getenv("ARCHIVE_DB")
 	if path == "" {
-		path = "/data/archive.db"
+		path = "/app/archive.db"
 	}
 	db, err := sql.Open("sqlite", path)
 	if err != nil {
